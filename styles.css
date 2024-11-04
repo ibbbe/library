@@ -1,0 +1,15 @@
+fieldset {
+    width: 500px;
+    
+    display:flex;
+    flex-direction: column;
+
+}
+
+button {
+    width: 150px;
+}
+
+#read {
+    align-self: start;
+}
