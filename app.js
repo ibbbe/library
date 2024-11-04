@@ -12,5 +12,11 @@ function addBookToLibrary(title, author, pages, read) {
     myLibrary.push(book);
 }
 
-addBookToLibrary('The hobbit', 'J.R.R: Tolkien', '295', 'read many times');
-console.log(myLibrary[0]);
+addBookToLibrary('The hobbit', 'J.R.R: Tolkien', 295, 'read many times');
+addBookToLibrary('Hamlet', 'William Shakespeare', 143, 'once read')
+
+function displayBooksInLibrary() {
+    myLibrary.forEach((book) => console.log(book));
+}
+
+displayBooksInLibrary();
