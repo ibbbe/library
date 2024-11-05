@@ -1,13 +1,16 @@
 legend {
     font-weight: 900;
+    font-size: 1.5em;
+    color:rgb(47, 105, 107);
 }
 
 label {
     font-weight: 300;
 }
+
 fieldset {
     width: 500px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 10px;
     border-radius: 5%;
@@ -17,10 +20,25 @@ fieldset {
 
 button {
     width: 150px;
-    background-color:lightsteelblue;
+    background-color: lightsteelblue;
     align-self: end;
 }
 
 #read {
     align-self: start;
+}
+
+table {
+    border: 1px solid rgb(134, 134, 243);
+    width: 1500px;
+}
+
+caption {
+    font-weight: 900;
+    color:rgb(47, 105, 107);
+    font-size: 1.5em;
+}
+th {
+    border: 1px solid black;
+    width: 20%;
 }
