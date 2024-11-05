@@ -1,13 +1,16 @@
 fieldset {
     width: 500px;
-    
     display:flex;
     flex-direction: column;
-
+    gap: 10px;
+    border-radius: 5%;
+    margin: 20px;
 }
 
 button {
     width: 150px;
+    background-color:lightsteelblue;
+    align-self: end;
 }
 
 #read {
