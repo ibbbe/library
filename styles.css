@@ -38,7 +38,8 @@ caption {
     color:rgb(47, 105, 107);
     font-size: 1.5em;
 }
-th {
+th, td {
     border: 1px solid black;
     width: 20%;
+    padding: 0.5rem;
 }
