@@ -1,3 +1,10 @@
+legend {
+    font-weight: 900;
+}
+
+label {
+    font-weight: 300;
+}
 fieldset {
     width: 500px;
     display:flex;
@@ -5,6 +12,7 @@ fieldset {
     gap: 10px;
     border-radius: 5%;
     margin: 20px;
+    background-color: aliceblue;
 }
 
 button {
